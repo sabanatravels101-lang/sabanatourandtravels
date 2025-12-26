@@ -1,0 +1,87 @@
+/* Sundarban Minimal Theme */
+:root {
+    --primary: #2a5d34;       /* Mangrove Green */
+    --secondary: #88b04b;     /* Light Green */
+    --accent: #f5f5dc;        /* Sand Beige */
+    --background: #eaf4f1;    /* Light Blue-Green */
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+}
+
+/* HEADER (NO IMAGE) */
+header {
+    background: var(--primary);
+    padding: 70px 20px;
+    text-align: center;
+    color: white;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: var(--secondary);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* CARDS */
+.services, .plans, .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    background: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* GALLERY */
+.gallery-item {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
