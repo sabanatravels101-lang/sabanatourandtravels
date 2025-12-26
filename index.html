@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabana Tour & Travels</title>
+    <style>
+        /* Sundarban-inspired minimalist colors */
+        :root {
+            --primary: #2a5d34;  /* dark green */
+            --secondary: #88b04b; /* light green */
+            --accent: #f5f5dc; /* beige/earthy */
+            --background: #eaf4f1; /* light blue-green */
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--background);
+            color: var(--primary);
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        header p {
+            margin: 5px 0 0 0;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: var(--secondary);
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .services, .plans {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            padding: 20px;
+            flex: 1 1 250px;
+            max-width: 300px;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            background-color: var(--primary);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .contact input, .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            border: 1px solid var(--secondary);
+            border-radius: 5px;
+        }
+
+        .contact button {
+            background-color: var(--secondary);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .contact button:hover {
+            background-color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sabana Tour & Travels</h1>
+        <p>Explore Sundarban with comfort: Boats, Hotels, and Delicious Food</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#plans">Plans</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Located in the heart of Sundarban, Sabana Tour & Travels offers unforgettable trips with comfortable boats, cozy hotels, and delicious local food. Experience nature without compromise!</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="card">
+                <h3>Boat Tours</h3>
+                <p>Guided boat tours through the mangroves and rivers of Sundarban.</p>
+            </div>
+            <div class="card">
+                <h3>Hotel Stay</h3>
+                <p>Comfortable and cozy hotels to relax after your adventures.</p>
+            </div>
+            <div class="card">
+                <h3>Delicious Food</h3>
+                <p>Experience local cuisine and fresh meals during your stay.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="plans">
+        <h2>Popular Plans</h2>
+        <div class="plans">
+            <div class="card">
+                <h3>2 Nights 3 Days</h3>
+                <p>Enjoy a short but memorable journey exploring the beauty of Sundarban.</p>
+            </div>
+            <!-- You can add more plans here -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2025 Sabana Tour & Travels | Made for Sundarban Adventures
+    </footer>
+
+</body>
+  </html>
