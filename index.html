@@ -5,123 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sabana Tour & Travels - Sundarban</title>
 
-    <style>
-        /* Sundarban Minimalist Color Theme */
-        :root {
-            --primary: #2a5d34;       /* Dark Mangrove Green */
-            --secondary: #88b04b;     /* Light Green */
-            --accent: #f5f5dc;        /* Sand Beige */
-            --background: #eaf4f1;    /* Light Blue-Green */
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: var(--background);
-            color: var(--primary);
-        }
-
-        header {
-    background-image: url('IMG-20251223-WA0033.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    text-align: center;
-    padding: 120px 20px;
-        }
-
-        nav {
-            background-color: var(--secondary);
-            padding: 12px;
-            display: flex;
-            gap: 25px;
-            justify-content: center;
-        }
-
-        nav a {
-            color: white;
-            font-weight: bold;
-            text-decoration: none;
-        }
-
-        section {
-            padding: 50px 20px;
-            max-width: 1000px;
-            margin: auto;
-        }
-
-        h2 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .services, .plans, .gallery {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 25px;
-        }
-
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            width: 280px;
-            text-align: center;
-            cursor: pointer;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-            transition: 0.3s;
-        }
-
-        .card:hover {
-            transform: scale(1.05);
-        }
-
-        .gallery-item {
-            width: 300px;
-            border-radius: 10px;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-        }
-
-        .button {
-            display: inline-block;
-            padding: 12px 25px;
-            background: var(--primary);
-            color: white;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-            margin: 5px;
-        }
-
-        .button:hover {
-            background: var(--secondary);
-        }
-
-        footer {
-            background-color: var(--primary);
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+    <!-- SIMPLE HEADER -->
     <header>
         <h1>Sabana Tour & Travels</h1>
-        <p>Explore Sundarban with Comfort – Boats • Hotels • Food</p>
-
-        <!-- Call + WhatsApp Buttons -->
-        <a href="tel:+91XXXXXXXXXX" class="button">Call Us</a>
-        <a href="https://wa.me/91XXXXXXXXXX?text=Hello%20Sabana%20Tour%20%26%20Travels!%20I%20want%20details%20about%20your%20Sundarban%20tour%20packages." 
-           target="_blank" 
-           class="button" 
-           style="background:#25D366;">WhatsApp</a>
+        <p>Boats • Hotels • Food • Sundarban Tour Packages</p>
     </header>
 
     <!-- NAVIGATION -->
@@ -136,55 +28,54 @@
     <!-- ABOUT -->
     <section id="about">
         <h2>About Us</h2>
-        <p>Sabana Tour & Travels, located in the heart of Sundarban, offers unforgettable travel experiences with safe boat tours, comfortable hotels, and delicious local food. We provide the best Sundarban trips at affordable prices.</p>
+        <p>Welcome to Sabana Tour & Travels. We provide Sundarban sightseeing tours with boat service, hotel stay, and delicious meals. Enjoy a safe, comfortable, and memorable Sundarban experience with our trusted team.</p>
     </section>
 
     <!-- SERVICES -->
     <section id="services">
         <h2>Our Services</h2>
         <div class="services">
+
             <div class="card">
-                <h3>Boat Tours</h3>
-                <p>Experience Sundarban rivers & mangroves with expert guides.</p>
+                <h3>Boat Service</h3>
+                <p>Safe, spacious, and comfortable boats for Sundarban tours.</p>
             </div>
 
             <div class="card">
                 <h3>Hotel Stay</h3>
-                <p>Comfortable and peaceful rooms for your family & group.</p>
+                <p>Clean, comfortable hotels with all basic facilities.</p>
             </div>
 
             <div class="card">
                 <h3>Food Service</h3>
-                <p>Fresh Sundarban-style meals: fish, chicken & veg options.</p>
+                <p>Freshly cooked meals with fish, chicken & vegetarian options.</p>
             </div>
+
         </div>
     </section>
 
-    <!-- PLANS with WhatsApp Auto-Message -->
+    <!-- PLANS -->
     <section id="plans">
-        <h2>Our Plans</h2>
+        <h2>Tour Plans</h2>
 
         <div class="plans">
 
-            <!-- 1 Night 2 Days Plan -->
             <div class="card"
-                 onclick="window.open('https://wa.me/91XXXXXXXXXX?text=Hello!%20I%20want%20details%20about%20the%201%20Night%202%20Days%20Sundarban%20Plan.%20Please%20share%20full%20itinerary%20and%20price.', '_blank');">
+                 onclick="window.open('https://wa.me/91XXXXXXXXXX?text=I%20want%20details%20for%201%20Night%202%20Days%20Sundarban%20package.', '_blank');">
                 <h3>1 Night 2 Days</h3>
-                <p>A perfect short getaway for families & couples.</p>
+                <p>Ideal short trip</p>
             </div>
 
-            <!-- 2 Nights 3 Days Plan -->
             <div class="card"
-                 onclick="window.open('https://wa.me/91XXXXXXXXXX?text=Hello!%20I%20want%20to%20book%20the%202%20Nights%203%20Days%20Sundarban%20Plan.%20Send%20details%20please.', '_blank');">
+                 onclick="window.open('https://wa.me/91XXXXXXXXXX?text=Please%20send%20details%20of%202%20Nights%203%20Days%20Sundarban%20package.', '_blank');">
                 <h3>2 Nights 3 Days</h3>
-                <p>Our most popular Sundarban package.</p>
+                <p>Most popular package</p>
             </div>
 
-            <!-- 3 Nights 4 Days Plan -->
             <div class="card"
-                 onclick="window.open('https://wa.me/91XXXXXXXXXX?text=Hello!%20Please%20share%20details%20for%20the%203%20Nights%204%20Days%20Sundarban%20trip.%20I%20am%20interested.', '_blank');">
+                 onclick="window.open('https://wa.me/91XXXXXXXXXX?text=Share%20details%20for%203%20Nights%204%20Days%20Sundarban%20tour.', '_blank');">
                 <h3>3 Nights 4 Days</h3>
-                <p>Explore Sundarban deeper & enjoy more sightseeing.</p>
+                <p>Extended Sundarban adventure</p>
             </div>
 
         </div>
@@ -193,18 +84,13 @@
     <!-- GALLERY -->
     <section id="gallery">
         <h2>Gallery</h2>
-        <p style="text-align:center;">Photos & videos from the beautiful Sundarban</p>
 
         <div class="gallery">
 
-            <!-- Add your images here -->
-            <img src="images/pic1.jpg" class="gallery-item" alt="Sundarban Image">
-            <img src="images/pic2.jpg" class="gallery-item" alt="Sundarban Image">
-
-            <!-- Add your videos here -->
-            <video controls class="gallery-item">
-                <source src="images/video1.mp4" type="video/mp4">
-            </video>
+            <!-- Add your external image links like this -->
+            <img src="https://i.ibb.co/yourimage1.jpg" class="gallery-item">
+            <img src="https://i.ibb.co/yourimage2.jpg" class="gallery-item">
+            <img src="https://i.ibb.co/yourimage3.jpg" class="gallery-item">
 
         </div>
     </section>
@@ -212,17 +98,9 @@
     <!-- CONTACT -->
     <section id="contact">
         <h2>Contact Us</h2>
+        <p style="text-align:center; font-size:20px;">📞 +91XXXXXXXXXX</p>
 
-        <p style="text-align:center;">For booking & enquiries:</p>
-        <p style="text-align:center; font-size:20px; font-weight:bold;">📞 +91XXXXXXXXXX</p>
-
-        <div style="text-align:center;">
-            <a href="tel:+91XXXXXXXXXX" class="button">Call Now</a>
-            <a href="https://wa.me/91XXXXXXXXXX?text=Hello%20Sabana%20Tour%20%26%20Travels!%20I%20want%20to%20know%20about%20your%20packages."
-               target="_blank" 
-               class="button" 
-               style="background:#25D366;">WhatsApp</a>
-        </div>
+        <p style="text-align:center;">For bookings & inquiries, contact us on WhatsApp or call.</p>
     </section>
 
     <footer>
